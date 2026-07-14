@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "A quiet collection of home goods, made slowly and shipped worldwide." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Maison — Considered home goods" },
+      { name: "twitter:description", content: "A quiet collection of home goods, made slowly and shipped worldwide." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53654894-c607-46d3-8a6e-49b1bd32febd/id-preview-1717e91d--636d0b53-af58-4a1a-bf3b-6ec6ba06b491.lovable.app-1784044179082.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53654894-c607-46d3-8a6e-49b1bd32febd/id-preview-1717e91d--636d0b53-af58-4a1a-bf3b-6ec6ba06b491.lovable.app-1784044179082.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
